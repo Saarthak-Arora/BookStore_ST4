@@ -1,8 +1,9 @@
-body {
+.bodyTo {
   margin: 0;
-  background-color: lavender;
+  background-color: rgb(241, 15, 15);
   font-family:cursive;
   text-align: center;
+  height: max-content;
   
 }
 
@@ -20,6 +21,16 @@ h1{
   background-color: orange;
   margin: auto;
   flex-wrap: wrap;
+}
+
+.aboutspace{
+  width: 90%;
+  height :92vh;
+  display: flex;
+  background-color: orange;
+  margin: auto;
+  flex-wrap: wrap;
+  
 }
 
 .card{

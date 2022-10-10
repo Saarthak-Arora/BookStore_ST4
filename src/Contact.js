@@ -2,7 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className = 'aboutspace'>
+          <h1>PHONE NO - 946XXXXXXXX ----------------</h1>
+          <br/>
+          <h1>EMAIL ID - SA@gmail.com ---------------</h1>
+        
+    </div>
   )
 }
 

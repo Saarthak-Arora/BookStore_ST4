@@ -33,13 +33,14 @@ const NavBar = () => {
         </Container>
       </Navbar>
     </div>
-    <br/>
     
-  <Routes>
-    <Route exact path="/" element={<BooksSpace/>}/>
-    <Route path="/About" element={<About/>}/>
-    <Route path="/Contact" element={<Contact/>}/>
-  </Routes>
+    <div className="bodyTo">
+    <Routes>
+      <Route exact path="/" element={<BooksSpace/>}/>
+      <Route path="/About" element={<About/>}/>
+      <Route path="/Contact" element={<Contact/>}/>
+    </Routes>
+  </div>
    </>
   
 
