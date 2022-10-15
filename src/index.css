@@ -6,7 +6,11 @@
   height: max-content;
   
 }
+.nav{
+  background-color: yellow;
+  font-weight: bold;
 
+}
 h1{
   font-weight: bolder;
   font-size: 80px;
@@ -36,7 +40,11 @@ h1{
 .card{
   margin: 8px;
   padding: 10px;
-
+}
+.card a{
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .base{
   width: 400px;
@@ -46,12 +54,9 @@ h1{
   font-size: 20px;
   margin: 5px;
   padding: 4px;
-  transition: all 0.99s ease-out;
   border-radius: 10px ;
 }
 .base span{
-  text-decoration:none;
-  text-align: center;
   color: black;
 }
 

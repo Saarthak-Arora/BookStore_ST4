@@ -21,7 +21,7 @@ const NavBar = () => {
  
   <>
   <div>
-     <Navbar bg="dark" variant="dark">
+     <Navbar  className="nav">
         <Container>
           <Navbar.Brand as={Link} to={'/'}>GYAN_()_BHANDAR</Navbar.Brand>
           <Nav className="me-auto">
@@ -29,7 +29,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to={"/About"}>About</Nav.Link>
             <Nav.Link as={Link} to={"/Contact"}>Contact us</Nav.Link>
           </Nav>
-            <h6 style={{color:"white"}}>Read books online [|] </h6> 
+            <h6 >Read books online [ | ] </h6> 
         </Container>
       </Navbar>
     </div>

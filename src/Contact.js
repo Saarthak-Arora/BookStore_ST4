@@ -20,7 +20,7 @@ const Contact = () => {
           </from>
           <br/>
           <br/>
-          <h1>THANKS U</h1>
+          <h1>THANK U</h1>
          
         
     </div>
